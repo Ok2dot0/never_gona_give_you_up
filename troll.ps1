@@ -51,6 +51,6 @@ if($tiem -eq '11:15:00'){break}
 while($true)
 {
 if($tiem -eq '11:15:20'){break}
-[audio]::Volume = 0.50
+[audio]::Volume = 0.10
 [audio]::Mute = $false
 }
